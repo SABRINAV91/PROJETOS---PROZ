@@ -1,0 +1,56 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNxrsRYkbIPWMyl9Ow6CqwZ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/SABRINAV91/PROJETOS---PROZ/blob/main/Atividade%20Nome%20-%20Ano%20Nascimento\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "NcWCF-xfsitd"
+      },
+      "outputs": [],
+      "source": [
+        "anoNasc = False\n",
+        "while (anoNasc == False):\n",
+        "    try:\n",
+        "        nome = input(\"Insira seu nome completo: \" )\n",
+        "        anoNasc = int(input(\"Insira seu ano de nascimento: \" ))\n",
+        "        if (anoNasc >= 1922 and anoNasc <= 2021):\n",
+        "           anoAtual = 2022\n",
+        "           idade = anoAtual - anoNasc\n",
+        "           anoNasc = True\n",
+        "           print(nome)\n",
+        "           print(\"Neste ano de 2022 você completa \",idade,\" anos.\")\n",
+        "        else :\n",
+        "           print(\"Você digitou um ano de nascimento inválido!\")\n",
+        "           anoNasc = False\n",
+        "    except:\n",
+        "       print(\"Caracter inválido, por favor digite o seu nome e ano de nascimento corretamente.\")\n"
+      ]
+    }
+  ]
+}
