@@ -1,0 +1,56 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOHFYBt2MyZcUn/9Dcs2zJN",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/SABRINAV91/PROJETOS---PROZ/blob/main/Exercicio%20html\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "vBywsaDXX0YN"
+      },
+      "outputs": [],
+      "source": [
+        "1 <header>\n",
+        "2 <main>\n",
+        "3  <nav>\n",
+        "4  <img>\n",
+        "5 <h1>\n",
+        "6  <h2>\n",
+        "7 <p>\n",
+        "8 <a>\n",
+        "9 <footer>\n",
+        "10 <ul>\n",
+        "11 <li>\n",
+        "12 <form>\n",
+        "13 <select>\n",
+        "14 <label>\n",
+        "15 <input>\n",
+        "16 <button>"
+      ]
+    }
+  ]
+}
